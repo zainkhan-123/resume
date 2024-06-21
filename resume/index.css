@@ -1,0 +1,95 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color: darkgray;
+}
+
+
+h1{
+    color: rgb(41, 105, 193);
+}
+h5{
+    color: rgb(29, 72, 133);
+}
+.heading{
+    
+    font-size: 1.5rem;
+    color:rgb(17, 176, 205)
+}
+#boxsize{
+    box-sizing: border-box;
+    width: 10%;
+    height: 0%;
+    text-align: center;
+color: rgb(25, 32, 32);
+background-color:rgb(111, 168, 204);
+margin: auto;
+
+border-radius: 5px;
+font-size: 2rem;
+transition: width 2s, height 3s;
+}
+ul li{
+    font-size: large;
+}
+#name{
+    font-size:2.5rem;
+    color: rgb(13, 109, 126);
+    font-weight: bold;
+    margin-left: 1%;
+   
+}
+#status{
+ 
+   color: rgb(10, 86, 99);
+   margin-left: 1%;
+   
+
+}
+#personal{
+    color:rgb(171, 81, 146);
+    margin-left: 1%;
+}
+ span#name:hover{
+    background-color: blueviolet;
+    color: rgb(14, 167, 187);
+    transition-duration: 0.6s;
+    font-size:3rem;
+  
+}
+#boxsize:hover{
+    width:200px;
+    transition-duration: 0.6s;
+    font-size: 2.5rem;
+   background-color: rgb(53, 165, 124);
+}
+#status:hover{
+    font-size:1.5rem ;
+    padding-bottom: 5px;
+    background-color: cornsilk;
+    transition-duration: 0.6s;
+}
+#data:hover{
+    background-color: cadetblue;
+    font-size: 1.2rem;
+}
+a:active{
+    color:rgb(197, 46, 46);
+    font-size:3rem;
+}
+a:hover{
+    color:rgb(201, 54, 54);
+    font-size:1.2rem;
+}
+.heading{
+    margin-left: 1%;
+}
+.heading:hover{
+    color:rgb(226, 108, 11);
+  
+   font-size: 1.7rem;
+
+}
+header{
+    background-color: darkgray;
+}
